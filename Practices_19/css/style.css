@@ -1,0 +1,652 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: serif;
+    background-color: bisque;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    background: url(../img/567310_view-from-the-google-offices-in-downtown-tokyo-mac-wallpapers_2560x1600_h.jpg) center / cover no-repeat fixed; 
+}
+
+.nav {
+    width: 94%;
+    margin: 0%  2% 0% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo a {
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(228, 10, 10);
+}
+
+.nav_link ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_link ul li {
+    padding: 0 30px 0 0;
+}
+
+.nav_link ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav_link ul li a:hover {
+    text-decoration: underline;
+    color: khaki;
+}
+
+.nav_link ul i {
+    color: black;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.nav_link ul i:hover {
+    color: khaki;
+}
+
+
+.header_inner {
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+.header_inner  h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+main {
+    padding-top: 50px;
+    width: 94%;
+    margin: 0%  2% 0% 4%;
+}
+
+/* grid_block */
+
+#grid_block {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.block_left_bg {
+    width: 100%;
+    background: url(../img/EMO_WizardsUnite_01.jpg) left bottom no-repeat fixed;
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+
+.block_right1 {
+    background: url(../img/djs_wwfmagazine_01.jpg) center / cover;
+    grid-row: 1/3;
+}
+
+.block_right2 {
+    background: url(../img/jo_glaciersrequiem_01.jpg) center / cover;
+    grid-row: 1/3;
+}
+
+.block_right3 {
+    background: url(../img/mb_saksfifthavenue_06.jpg) center / cover;
+    grid-row: 3/5;
+}
+
+.block_right4 {
+    background: url(../img/mg_eo_cooperhewitt_01.jpg) center / cover;
+    grid-row: 3/5;
+}
+
+/* grid_block2  */
+
+#grid_block2 {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.block_left1 {
+    background: url(../img/LH_ColgateUniversity_Identity_001.jpg) center / cover;
+    grid-row: 1/3;
+}
+
+.block_left2 {
+    background: url(../img/ah_williammorris_02.jpg) center / cover;
+    grid-row: 1/3;
+}
+
+.block_left3 {
+    background: url(../img/lh_designedbyapple_01.jpg) left top / cover fixed;
+    grid-column: 3/5;
+    grid-row: 1/5;
+}
+
+.block_left4 {
+    background: url(../img/nj_milly_01.jpg) center / cover;
+    grid-row: 3/5;
+}
+
+.block_right_bg {
+    background: url(../img/jr_bertazzoni_01.jpg) center / cover;
+    grid-row: 3/5;
+}
+
+/* grid_block3  */
+
+#grid_block3 {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.left_bg {
+    width: 100%;
+    background: url(../img/ps_highline_02_newwebsite.jpg) left top no-repeat fixed;
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+
+.right1 {
+    background: url(../img/dl_lcc_01.jpg) center / cover;
+    grid-row: 1/3;
+}
+
+.right2 {
+    background: url(../img/dl_lcc_01.jpg) center / cover;
+    grid-row: 1/3;
+}
+
+.right3 {
+    background: url(../img/2021_PS_Public.jpg) center / cover;
+    grid-row: 3/5;
+}
+
+.right4 {
+    background: url(../img/DJS_GoodDog_1.jpg) center / cover;
+    grid-row: 3/5;
+}
+
+/* form */
+
+#footer {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.form {
+    width: 90%;
+    margin: 0 0 0 10%;
+    display: grid;
+    grid-template: repeat(4, 120px) / repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.left_inputs {
+    grid-row: 1/4;
+}
+
+.left_inputs input {
+    width: 70%;
+    padding: 20px 20px;
+    margin: 5px 0 30px 0;
+}
+
+.button {
+    margin-top: -10px;
+    width: 200px;
+}
+
+.button input {
+    background-color: rgb(24, 21, 21);
+    color: white;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.button input:hover {
+    background-color: rgb(58, 51, 51);
+    color: rgb(214, 200, 204);
+}
+
+.right_immage {
+    background: url(../img/BlogPosts_FNL.jpg) center / cover;
+    grid-row: 1/4;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 830px) {
+
+    
+    /* grid_block */
+
+    #grid_block {
+        width: 100%;
+        grid-template: repeat(8, 100px) / repeat(4, 1fr);
+        grid-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .block_left_bg {
+        width: 100%;
+        background: url(../img/EMO_WizardsUnite_01.jpg) center / cover no-repeat fixed;
+        grid-column: 1/5;
+        grid-row: 1/5;
+    }
+
+    .block_right1 {
+        background: url(../img/djs_wwfmagazine_01.jpg) center / cover;
+        grid-row: 5/7;
+        grid-column: 1/3;
+    }
+
+    .block_right2 {
+        background: url(../img/jo_glaciersrequiem_01.jpg) center / cover;
+        grid-row: 5/7;
+        grid-column: 3/5;
+    }
+
+    .block_right3 {
+        background: url(../img/mb_saksfifthavenue_06.jpg) center / cover;
+        grid-row: 7/9;
+        grid-column: 1/3;
+    }
+
+    .block_right4 {
+        background: url(../img/mg_eo_cooperhewitt_01.jpg) center / cover;
+        grid-column: 3/5;
+        grid-row: 7/9;
+    }
+
+    /* grid_block2  */
+
+    #grid_block2 {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-template: repeat(8, 100px) / repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+
+    .block_left1 {
+        background: url(../img/LH_ColgateUniversity_Identity_001.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    .block_left2 {
+        background: url(../img/ah_williammorris_02.jpg) center / cover;
+        grid-column: 3/5;
+        grid-row: 1/3;
+    }
+
+    .block_left3 {
+        background: url(../img/lh_designedbyapple_01.jpg)  center / cover fixed;
+        grid-column: 1/5;
+        grid-row: 5/9;
+    }
+
+    .block_left4 {
+        background: url(../img/nj_milly_01.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 3/5;
+    }
+
+    .block_right_bg {
+        background: url(../img/jr_bertazzoni_01.jpg) center / cover;
+        grid-column: 3/5;
+        grid-row: 3/5;
+    }
+
+    /* grid_block3  */
+
+    #grid_block3 {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-template: repeat(4, 100px) / repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+
+    .left_bg {
+        width: 100%;
+        background: url(../img/ps_highline_02_newwebsite.jpg) left top no-repeat fixed;
+        grid-column: 1/3;
+        grid-row: 1/5;
+    }
+
+    .right1 {
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-row: 1/3;
+    }
+
+    .right2 {
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-row: 1/3;
+    }
+
+    .right3 {
+        background: url(../img/2021_PS_Public.jpg) center / cover;
+        grid-row: 3/5;
+    }
+
+    .right4 {
+        background: url(../img/DJS_GoodDog_1.jpg) center / cover;
+        grid-row: 3/5;
+    }
+
+    /* form */
+
+    #footer {
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .form {
+        width: 90%;
+        margin: 0 0 0 10%;
+        display: grid;
+        grid-template: repeat(4, 120px) / repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .left_inputs {
+        grid-row: 1/4;
+    }
+
+    .left_inputs input {
+        width: 70%;
+        padding: 20px 20px;
+        margin: 5px 0 30px 0;
+    }
+
+    .button {
+        margin-top: -10px;
+        width: 200px;
+    }
+
+    .button input {
+        background-color: rgb(24, 21, 21);
+        color: white;
+        border-radius: 3px;
+    }
+
+    .right_immage {
+        background: url(../img/BlogPosts_FNL.jpg) center / cover;
+        grid-row: 1/4;
+    }
+
+     /* grid_block3 */
+
+     #grid_block3 {
+        width: 100%;
+        grid-template: repeat(8, 100px) / repeat(4, 1fr);
+        grid-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .left_bg {
+        background: url(../img/ps_highline_02_newwebsite.jpg) center / cover fixed;
+        width: 100%;
+        grid-column: 1/5;
+        grid-row: 1/5;
+    }
+
+    .right1 {
+        grid-row: 5/7;
+        grid-column: 1/3;
+    }
+
+    .right2 {
+        grid-row: 5/7;
+        grid-column: 3/5;
+    }
+
+    .right3 {
+        grid-row: 7/9;
+        grid-column: 1/3;
+    }
+
+    .right4 {
+        grid-column: 3/5;
+        grid-row: 7/9;
+    }
+
+}
+
+/* Media2 */
+
+@media screen and (max-width: 700px) {
+    .nav_link ul {
+        display: none;
+    }
+}
+
+/* Media3 */
+
+@media screen and (max-width: 500px) {
+
+    /* form */
+
+    .form {
+        width: 90%;
+        margin: 0 0 0 10%;
+        display: grid;
+        grid-template: repeat(7, 120px) / repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .left_inputs {
+        grid-row: 1/4;
+    }
+    .left_inputs input {
+        width: 80%;
+        padding: 15px 15px;
+        margin: 5px 0 20px -2px;
+    }
+    
+    .button {
+        margin-top: -10px;
+        width: 150px;
+    }
+
+    .button input {
+        background-color: rgb(24, 21, 21);
+        color: white;
+        border-radius: 3px;
+    }
+
+    .right_immage {
+        background: url(../img/BlogPosts_FNL.jpg) center / cover;
+        grid-row: 4/8;
+        margin: 0 20px 0  -10px;
+    }
+
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 330px) {
+
+    /* grid_block */
+
+    #grid_block {
+        width: 100%;
+        grid-template: repeat(12, 100px) / repeat(1, 1fr);
+        grid-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .block_left_bg {
+        width: 100%;
+        background: url(../img/EMO_WizardsUnite_01.jpg) center /  no-repeat fixed;
+        grid-column: 1/4;
+        grid-row: 1/5;
+    }
+
+    .block_right1 {
+        background: url(../img/djs_wwfmagazine_01.jpg) center / cover;
+        grid-row: 5/7;
+        grid-column: 1/4;
+    }
+
+    .block_right2 {
+        background: url(../img/jo_glaciersrequiem_01.jpg) center / cover;
+        grid-row: 7/9;
+        grid-column: 1/4;
+    }
+
+    .block_right3 {
+        background: url(../img/mb_saksfifthavenue_06.jpg) center / cover;
+        grid-row: 9/11;
+        grid-column: 1/4;
+    }
+
+    .block_right4 {
+        background: url(../img/mg_eo_cooperhewitt_01.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 11/13;
+    }
+
+    /* grid_block2  */
+
+    #grid_block2 {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-template: repeat(10, 100px) / repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .block_left1 {
+        background: url(../img/LH_ColgateUniversity_Identity_001.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+
+    .block_left2 {
+        background: url(../img/ah_williammorris_02.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 3/5;
+    }
+
+    .block_left3 {
+        background: url(../img/lh_designedbyapple_01.jpg)  center / cover fixed;
+        grid-column: 1/4;
+        grid-row: 5/7;
+    }
+
+    .block_left4 {
+        background: url(../img/nj_milly_01.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 7/9;
+    }
+
+    .block_right_bg {
+        background: url(../img/jr_bertazzoni_01.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 9/12;
+    }
+
+    /* grid_block3  */
+
+    #grid_block3 {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-template: repeat(12, 100px) / repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .left_bg {
+        width: 100%;
+        background: url(../img/ps_highline_02_newwebsite.jpg)center no-repeat fixed;
+        grid-column: 1/4;
+        grid-row: 1/5;
+    }
+
+    .right1 {
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-row: 5/7;
+    }
+
+    .right2 {
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 7/9;
+    }
+
+    .right3 {
+        background: url(../img/2021_PS_Public.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 9/11;
+    }
+
+    .right4 {
+        background: url(../img/DJS_GoodDog_1.jpg) center / cover;
+        grid-column: 1/4;
+        grid-row: 11/13;
+    }
+
+
+    .form {
+        width: 90%;
+        margin: 0 0 0 10%;
+        display: grid;
+        grid-template: repeat(6, 120px) / repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .left_inputs {
+        grid-row: 1/4;
+    }
+
+    .left_inputs input {
+        width: 90%;
+        padding: 15px 10px;
+        margin: 5px 0 10px 1px;
+    }
+
+    .button {
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    .button input {
+        background-color: rgb(24, 21, 21);
+        color: white;
+        border-radius: 3px;
+    }
+
+    .right_immage {
+        background: url(../img/BlogPosts_FNL.jpg) center / no-repeat;
+        grid-column: 1/4;
+        grid-row: 4/7;
+    }
+
+    
+
+}
